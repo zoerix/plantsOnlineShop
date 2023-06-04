@@ -24,11 +24,10 @@ Object.entries(dataObj).forEach((entryCards) => {
                 cardDiv.style.width = '18rem';
 
                 let cardImg = document.createElement('img');
-         
                 cardImg.src = card.image;
                 cardImg.alt = card.name;
                 cardImg.className = 'card-image';
-                cardImg.style.objectFit= 'cover';
+                // cardImg.style.objectFit= 'cover';
 
                 let cardBody = document.createElement('div');
                 cardBody.className = 'card-body';

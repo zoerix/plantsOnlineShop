@@ -71,5 +71,36 @@ h1 {
 }
 
 .sectionStyling {
-   // border: 10px solid white;
+    /* border: 10px solid white; */
+}
+
+.section {
+    border: 5px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    margin: 5%;
+}
+
+.card-body {
+
+}
+
+.card-image {
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+    margin: 5%;
 }
